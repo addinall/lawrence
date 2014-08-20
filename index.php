@@ -22,6 +22,8 @@
                     now be managing the content through some VERY simplistic
                     PHP inline code.  This gives Apache for warning to load the
                     PHP modules, speeding processing.
+    21/08/2014 -    Looks pretty much finished to me.  CSS is pretty hoopy!  That
+                    was a 37 hour shift!!!!  Too tired to sleep!!
 -->
 
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
