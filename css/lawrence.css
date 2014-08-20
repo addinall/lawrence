@@ -1,0 +1,26 @@
+/*
+ * My newest development toolset "LOOK-n-FEEL is now 100% CSS3.
+ * I have been aiming at a 'pure CSS' environment for over a decade,
+ * but didn't have the tools, time or skill to bring it to fruition.
+ *
+ * We are going to use CSS as it SHOULD be.  We will have a minimalistic
+ * CSS set of attributes that is built along with the boilerplate
+ * RESPONSIVE and FLUID toolkit, and then we CASCADE our changes onto
+ * it per customes.
+ *
+ * Indeed, I have been one of those souls who have started out with
+ * an empty CSS file per project.
+ *
+ * August 2014 -  30 years of full time coding!  Time flies when
+ * you're chasing BUGS!  ;-)
+ *
+ * Mark Addinall - Brisbane Australia.
+ *
+ * This one is for Lawrence Ridolphi - Musician, small business owner and scholar.
+ *
+ */
+ 
+
+
+body {background:white;}
+

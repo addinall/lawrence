@@ -41,7 +41,9 @@
 <!-- Place favicon.ico and apple-touch-icon.png in root directory -->
         
 <link href="css/style.css" rel="stylesheet" />
+<link href="css/lawrence.css" rel="stylesheet" />
 
+<link rel="stylesheet" type="text/css" href="css/style2.css" />
 <link rel="stylesheet" href="AudioPlayer/css/audioplayer.css" />
 
 <script src="AudioPlayer/js/jquery.js"></script>
@@ -49,13 +51,25 @@
 
 <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
 
+<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
+
 <?php require("content.php");   ?>
 
 
 
 </head>
 
-<body>
+<body id="page">
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span><div><h3>innovation</h3></div></li>
+        <li><span>Image 02</span><div><h3>creativity</h3></div></li>
+        <li><span>Image 03</span><div><h3>dedication</h3></div></li>
+        <li><span>Image 04</span><div><h3>balance</h3></div></li>
+        <li><span>Image 05</span><div><h3>energetic</h3></div></li>
+        <li><span>Image 06</span><div><h3>electronic</h3></div></li>
+    </ul>
+
     <header>
         <div class="g1">
             <h1><?php echo $logo;  ?></h1>
@@ -75,7 +89,7 @@
     <div class="cf"></div>
     <div id="content">
         <div class="g1">
-            <h3><?php echo $sidebar_header; ?></h3>
+            <h3><?php echo '<a href="http://www.crosscitydjs.com.au/?page_id=18" target="_blank">' . $sidebar_header . "</a>"; ?></h3>
             <p>
                 <?php echo $sidebar_paragraph; ?>
             </p>

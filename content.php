@@ -29,7 +29,7 @@
 $logo = "Lawrence Ridolfi";
 
 $header_message = <<<END
-My new web page.  My on-call free Web designer does not know what it is for yet. I will tell him later when delivering drinks. He now be choosing sick colour schemes.
+"This is your message for the week/month/season area, hence it is in quotes.  You now own the TWO best LOOKING music sites on the web.  PLEASE for this one have a think about the content.  Even if you have to hire a content writer...Ta."
 END;
 
 // now before anyone starts screaming "USE AN ARRAY, OR AN OBJECT CONTAINING AN ARRAY, OR AN
@@ -38,7 +38,7 @@ END;
 // on the screen in paragraph one.  That is ALL I want this file to do.  So fuck off, weenies.
 
 $header_paragraph = <<<END
-Dunkle priming; crystal malt, " degrees plato top-fermenting yeast bacterial length mouthfeel." cask conditioning seidel heat exchanger sour/acidic mouthfeel lager hops. krausen berliner weisse dry stout yeast copper. trappist dry stout pilsner brew dry stout. aerobic fermentation bottom fermenting yeast aroma hops. malt cask conditioning.
+Dunkle priming; crystal malt, " degrees plato top-fermenting yeast bacterial length mouthfeel." cask conditioning seidel heat exchanger sour/acidic mouthfeel lager hops. krausen berliner weisse dry stout yeast copper. 
 END;
 
 // This is the END of the HEADER CONTENT
@@ -46,7 +46,7 @@ END;
 // These are the various HEADINGS in the system
 // If you want to INCREASE the number of paragraphs, you need to understand index.php
 
-$sidebar_header = "Play with me!";
+$sidebar_header = "Contact me!";
 
 $heading_one    = "I'm serious as a heart attack";
 $heading_two    = "Your bones don't break, mine do";
@@ -87,8 +87,15 @@ $footer_paragraph = <<<END
 Lorizzle ipsum dolor check it out amizzle, go to hizzle adipiscing elit. Nullizzle bow wow wow phat, my shizz volutpat, get down get down quis, dope vel, own yo'. Pellentesque phat tortor. Sed funky fresh. Fusce izzle dolor dapibus pot tempizzle bow wow wow. Dope pellentesque nibh et shut the shizzle up. Break it down izzle dang. Pellentesque eleifend i saw beyonces tizzles and my pizzle went crizzle bling bling. In hac sizzle platea dope. Bow wow wow dapibizzle. Curabitur cool ass, pretium eu, mattizzle izzle, get down get down daahng dawg, nunc. Phat suscipizzle. Integer semper we gonna chung sizzle purus.
 END;
 
+
+// This next bit is in here because it is fucking ugly as, but really, really important.
+// I would suggest that if you are the end customer, NOT to experiment with this
+// lot.  Just assume it works and don't poke it.
+
 $footer_legals = <<<END
-<small>2014 <span class="license">Created by <a href="http://www.addinall.net" target="_blank">Mark Addinall</a> <span class="amp">&amp;</span> <a href="http://www.crosscitydjs.com.au" target="_blank">Lawrence Ridolfi</a> Well, mostly Mark Addinall.  Nearly all of it in fact.  Using Marks NEW SOOPER DOOPER RESPONSIVE boilerplate for FondleSlabs.  Neat</span>. </small>
+&copy; 2014 <span class="license">Created by <a href="http://www.addinall.net/contact.php" target="_blank"><em>Mark Addinall</em></a> <span class="amp">&amp;</span><a href="http://www.crosscitydjs.com.au/?page_id=18" target="_blank"><em>Lawrence Ridolfi</em></a>  Using Chameleon V5.0 Web Toolset by Mark Addinall</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="Lawrence" data-size="large" data-related="Crosscitydjs" data-hashtags="crosscitydjs">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 END;
 
 
