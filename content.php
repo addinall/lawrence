@@ -110,4 +110,16 @@ $footer_javascript = <<<END
     <script>var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 END;
 
+
+// here at the wanky things to say about yourself, music
+//
+
+
+$wank_1 = "dedication";
+$wank_2 = "balance";
+$wank_3 = "creativity";
+$wank_4 = "energetic";
+$wank_5 = "electronic";
+$wank_6 = "innovation";
+
 ?>

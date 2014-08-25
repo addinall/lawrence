@@ -64,12 +64,12 @@
 
 <body id="page">
     <ul class="cb-slideshow">
-        <li><span>Image 01</span><div><h3>innovation</h3></div></li>
-        <li><span>Image 02</span><div><h3>creativity</h3></div></li>
-        <li><span>Image 03</span><div><h3>dedication</h3></div></li>
-        <li><span>Image 04</span><div><h3>balance</h3></div></li>
-        <li><span>Image 05</span><div><h3>energetic</h3></div></li>
-        <li><span>Image 06</span><div><h3>electronic</h3></div></li>
+        <li><span>Image 01</span><div><h3><?php echo $wank_1; ?></h3></div></li>
+        <li><span>Image 02</span><div><h3><?php echo $wank_2; ?></h3></div></li>
+        <li><span>Image 03</span><div><h3><?php echo $wank_3; ?></h3></div></li>
+        <li><span>Image 04</span><div><h3><?php echo $wank_4; ?></h3></div></li>
+        <li><span>Image 05</span><div><h3><?php echo $wank_5; ?></h3></div></li>
+        <li><span>Image 06</span><div><h3><?php echo $wank_6; ?></h3></div></li>
     </ul>
 
     <header>
@@ -101,21 +101,50 @@
         It might not be a great idea to edit them unless you are pretty sure
         of what is going on!  -->
 
+<!--
+// MUSIC.  Now, you have five slots.  If you need more we need to think about the
+// screen real estate and geometry, and not just slap things in willy-nilly.
+// To make the music compatible over ALL browsers and operating system you
+// should take the time to make OGG and WAV audio files as well as MP3.
+// Not all browsers will play an MP3.  You be like "I'm an audio engineer, I can do dat"
+//
+// here is a good place to do the converts.  They ask for a $1.90 donation.
+// I am good with that.  You can upload all at the same time in a batch and the thing
+// works (which makes a change).
+//
+// http://media.io/
+-->
             <h5>Juicy</h5>
             <p>
-                <audio src="AudioPlayer/audio/juicy.mp3" preload="none" controls></audio>
+                <audio preload="none" controls>
+                    <source src="AudioPlayer/audio/juicy.mp3">
+                    <source src="AudioPlayer/audio/juicy.ogg">
+                    <source src="AudioPlayer/audio/juicy.wav">
+                </audio>
             </p>
             <h5>Boss Nigger</h5>
             <p>
-                <audio src="AudioPlayer/audio/bn.mp3" preload="none" controls></audio>
+                <audio preload="none" controls>
+                    <source src="AudioPlayer/audio/bn.mp3"> 
+                    <source src="AudioPlayer/audio/bn.ogg"> 
+                    <source src="AudioPlayer/audio/bn.wav"> 
+                </audio>
             </p>
             <h5>Hunger Games</h5>
             <p>
-                <audio src="AudioPlayer/audio/dghg.mp3" preload="none" controls></audio>
+                <audio preload="none" controls>
+                    <source src="AudioPlayer/audio/dghg.mp3"> 
+                    <source src="AudioPlayer/audio/dghg.ogg"> 
+                    <source src="AudioPlayer/audio/dghg.wav"> 
+                </audio>
             </p>
             <h5>Circles</h5>
             <p>
-                <audio src="AudioPlayer/audio/KDrew_Circles.mp3" preload="none" controls></audio>
+                <audio preload="none" controls>
+                    <source src="AudioPlayer/audio/KDrew_Circles.mp3"> 
+                    <source src="AudioPlayer/audio/KDrew_Circles.ogg"> 
+                    <source src="AudioPlayer/audio/KDrew_Circles.wav"> 
+                </audio>
             </p>
             <h5>(FourFlossFive)Six</h5>
             <p>
